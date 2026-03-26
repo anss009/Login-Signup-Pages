@@ -6,7 +6,7 @@ import SignUp from './components/SignUp.jsx';
 import './App.css';
 
 function App() {
-  return (
+  return(
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
